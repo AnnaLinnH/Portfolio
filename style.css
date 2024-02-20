@@ -8,9 +8,24 @@ body {
   color: #000;
  } 
 
+ .maillink{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+ }
+
+ .maillink:hover{
+  color:#10289E;
+  text-shadow: 2px 2px #D3DDE6;
+ }
+
  .center{
   text-align: center;
   margin:auto;
+ }
+
+ .right{
+  text-align: right;
  }
 /*--------typografi---------*/
   
@@ -30,6 +45,15 @@ h3{
   line-height: 1em;
   margin-top: 2vh;
 }
+
+  h4{
+    font-family: "campaign-serif", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 3vw;
+   line-height: 1em;
+   margin-top: 2vh;
+  }
 
   p{
     font-family: "quicksand", sans-serif;
@@ -53,6 +77,22 @@ h3{
     font-weight: 400;
     font-size: 8vw;
     margin-top: 3vh;
+  }
+
+  h4{
+    font-family: "campaign-serif", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 6vw;
+   line-height: 1em;
+   margin-top: 0vw;
+  }
+
+  h5{
+    font-family: "quicksand", sans-serif;
+    font-size: 6vw;
+    font-weight: 300;
+    text-transform: uppercase;
   }
 
   p{
@@ -541,6 +581,16 @@ footer{
   background-position: center;
 }
 
+.nysgerrigpamere{
+  width:85%;
+  margin: auto;
+  margin-bottom:7vw;
+}
+
+.nysgerrigpamereM{
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   #portfolioforside{
       background-image: url("images/portfolioM.png");
@@ -563,4 +613,15 @@ footer{
     height: 55vh;
     margin-top: 2vh;
   }
+  .nysgerrigpamereM{
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding-bottom: 20vw;
+  }
+
+  .nysgerrigpamere{
+    display: none;
+  }
+
 }
