@@ -3,26 +3,205 @@ body {
     background-color: #F7F6F2;
   }
   
-  /*typografi*/
+/*--------typografi---------*/
   
   h2{
   font-family: "campaign-serif", sans-serif;
   font-weight: 400;
-  font-style: normal;}
+  font-style: normal;
+  font-size: 6vw;
+  line-height: 50%;
+}
 
-  /*generelle*/
+  p{
+    font-family: "quicksand", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+
+/*------------typografi mobil---------*/
+
+@media screen and (max-width: 768px) {
+  h2{
+    font-family: "campaign-serif", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12vw;
+  line-height: 50%;
+  }
+
+  p{
+    font-family: "quicksand", sans-serif;
+    font-size: 4.5vw;
+    font-weight: 300;
+  }
+}
+
+/*-------------button---------------*/
+.btn{
+  background-color: #D3DDE6;
+  border: none;
+  padding: 1vw 2vw 1vw 2vw;
+  color: #000;
+  font-family: "quicksand", sans-serif;
+  font-size: 1.3vw;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.btn:hover {
+  background-color: #FFC5E9;
+}
+
+@media screen and (max-width: 768px) {
+.btn{
+  font-size: 4.5vw;
+  padding: 3vw 6vw 3vw 6vw;
+}
+}
+/*-------------generelle------------*/
   .forsidebillede{
     width: 100vw;
     height: 100vh;
     background-size: cover;
     margin-top: -15vh;
+    margin-bottom: 5vh;
   }
 
+  .billede100{
+    width: 100%;
+    height: 100%;
+  }
+
+  .fit{
+    width:85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:7vw;
+  }
+  
+  .kolonner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4vw;
+  }
+  
+  .reversekolonner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .halvkolonne{
+    width:48%;
+    height: auto;
+    padding-right:1vw;
+    display:flex;
+  }
+
+  .mellemkolonne1{
+    width: 42%;
+    height: auto;
+    padding-right: 4vw;
+    display: flex;
+  }
+
+  .mellemkolonne2{
+    width: 52%;
+    height: auto;
+    padding-right: 0vw;
+  }
+  
+  .lillekolonne{
+    width: 36%;
+    height:auto;
+  }
+  
+  .storkolonne{
+    width: 60%;
+    height: auto;
+    padding-right: 1vw;
+    margin:auto;
+  }
+  
+  .storkolonnehøjre{
+    width: 60%;
+    height: auto;
+    padding-right: 1vw;
+    margin:auto;
+    text-align: right;
+  }
+
+  /*--------generelle mobil----------*/
   @media screen and (max-width: 768px) {
 
     .forsidebillede{
     margin-top: -10vh;
+    margin-bottom: 4vh;
     }
+
+    .fit{
+      width: 90%;
+      margin:auto;
+  }
+  
+  .kolonner{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 2vw;
+      margin-bottom: 7vw;
+  }
+  
+  .reversekolonner{
+      width:100%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      margin:auto;
+  }
+  
+  .halvkolonne{
+      width:95%;
+      margin:auto;
+  }
+  
+  .lillekolonne{
+    width:95%;
+    margin:auto;
+  }
+  
+  .storkolonne{
+    width:95%;
+    margin:auto;
+  }
+
+  .mellemkolonne1{
+    width:100%;
+    margin:auto;
+  }
+
+  .mellemkolonne2{
+    width:100%;
+    margin:auto;
+  }
+  
+  .storkolonnehøjre{
+    width:95%;
+    text-align: left;
+    margin:auto;
+    margin-bottom: 10vw;
+  }
   }
   
   /*header*/
@@ -190,7 +369,7 @@ body {
     margin: 0 auto 10px;
   }
 
-/*index*/
+/*--------------index--------------*/
 #indexforside{
     background-image: url("images/indexforside.jpg");
 }
