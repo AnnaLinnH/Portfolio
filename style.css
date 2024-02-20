@@ -488,7 +488,7 @@ footer{
 }
 
 /*--------------portfolio--------------*/
-.portfolioforside{
+#portfolioforside{
   background-image: url("images/portfolio.png");
   width: 90vw;
   height: 45vw;
@@ -496,6 +496,14 @@ footer{
   margin-top: 5vh;
   margin-bottom: 15vh;
   margin: auto;
+}
+
+#portfolioforside1{
+  background-image: url("images/portfolio.png");
+  width: 90vw;
+  height: 45vw;
+  background-size: cover;
+  margin: -3vw 5vw 5vw 5vw;
 }
 
 .portfoliobilleder{
@@ -534,13 +542,21 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-  .portfolioforside{
+  #portfolioforside{
       background-image: url("images/portfolioM.png");
       width: 90vw;
       height: 42vw;
       margin-top: 7vh;
       margin-bottom: 5vh;
   }
+
+  #portfolioforside1{
+    background-image: url("images/portfolioM.png");
+    width: 90vw;
+    height: 42vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
 
   .portfoliobilleder{
     width: 100%;
