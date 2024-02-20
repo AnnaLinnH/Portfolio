@@ -40,7 +40,7 @@ body {
 
 h3{
   font-family: "campaign-serif", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 2.5vw;
   line-height: 1em;
   margin-top: 2vh;
@@ -180,8 +180,7 @@ h3{
   .halvkolonne{
     width:45%;
     height: auto;
-    padding-right:1vw;
-    display:flex;
+    padding-right:2vw;
   }
 
   .mellemkolonne1{
@@ -702,3 +701,67 @@ footer{
     margin-top: 5vw;
   }
 }
+
+/*-----------------om mig---------------*/
+.ommigkolonner{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -8vw 3vw 5vw -5vw;
+}
+
+.ommighalvkolonne{
+  width:47%;
+  height: auto;
+}
+
+.ommigforsideimg{
+  width: 100%;
+  height: 52vw;
+  margin-right:5vw;
+}
+
+.ommigforsidetxt{
+  margin-left: 5vw;
+}
+
+.goddag{
+  width: 100%;
+  height: auto;
+  margin-top: 8vw;
+}
+
+.ommigfit{
+  display:none;
+}
+
+.ommigforsideM{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .ommigkolonner{
+    display: none;
+  }
+
+  .ommigfit{
+    width:90%;
+    margin: auto;
+    margin-bottom:7vw;
+  }
+
+  .ommigforsideM{
+    background-image: url("images/stol.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 157vw;
+    margin-top: -12vh;
+    margin-bottom: 1vh;
+    }
+
+    .goddagM{
+      width: 100%;
+    }
+  }
