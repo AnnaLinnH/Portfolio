@@ -666,3 +666,39 @@ footer{
 .tag p{
   font-size: 1.8vw;
 }
+
+@media screen and (max-width: 768px) {
+  .kontaktboks{
+    display: none;
+  }
+
+  .kontaktforside{
+    display:none;
+  }
+
+  .kontaktforsideM{
+    width: 95vw;
+    height: 35vw;
+    background-image: url("images/nysgerrigM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-bottom: 8vw;
+  }
+
+  .tagp{
+    font-size: 6vw;
+  }
+
+  .someikonerkontakt{
+    width: 15vw;
+    padding: 0.5vw;
+  }
+  
+  .someboks{
+    width: 70vw;
+    text-align: center;
+    margin:auto;
+    margin-top: 5vw;
+  }
+}
