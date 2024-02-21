@@ -27,6 +27,15 @@ body {
  .right{
   text-align: right;
  }
+
+ .left{
+  text-align: left;
+  margin-top: -2vw;
+ }
+
+ .justify{
+  text-align: justify;
+ }
 /*--------typografi---------*/
   
   h2{
@@ -175,6 +184,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 4vw;
   }
   
   .halvkolonne{
@@ -192,6 +202,24 @@ h3{
 
   .mellemkolonne2{
     width: 52%;
+    height: auto;
+    padding-right: 0vw;
+  }
+
+  .mellemkolonne3{
+    width: 52%;
+    height: auto;
+    padding-right: 0vw;
+  }
+
+  .mellemkolonne4{
+    width: 56%;
+    height: auto;
+    padding-right: 2vw;
+  }
+
+  .mellemkolonne5{
+    width: 40%;
     height: auto;
     padding-right: 0vw;
   }
@@ -274,12 +302,27 @@ h3{
   }
 
   .mellemkolonne1{
-    width:100%;
+    width:95%;
     margin:auto;
   }
 
   .mellemkolonne2{
-    width:100%;
+    width:95%;
+    margin:auto;
+  }
+
+  .mellemkolonne3{
+    width:95%;
+    margin-right:10vw;
+  }
+
+  .mellemkolonne4{
+    width:95%;
+    margin:auto;
+  }
+
+  .mellemkolonne5{
+    width:95%;
     margin:auto;
   }
   
@@ -291,7 +334,7 @@ h3{
   }
 
   .trekolonner{
-    width:100%;
+    width:95%;
     margin:auto;
   }
   }
@@ -708,6 +751,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
   margin: -8vw 3vw 5vw -5vw;
 }
 
@@ -718,7 +762,7 @@ footer{
 
 .ommigforsideimg{
   width: 100%;
-  height: 52vw;
+  height: 50vw;
   margin-right:5vw;
 }
 
@@ -740,6 +784,52 @@ footer{
   display: none;
 }
 
+.hurtige{
+  font-family: "campaign-serif", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 1em;
+}
+
+.detsigerandre{
+  width: 85%;
+  margin: auto;
+  margin-bottom: -7vw;
+}
+
+.citat{
+  font-size: 1.4vw;
+}
+
+.person{
+  font-family: "campaign-serif", sans-serif;
+  font-weight:400;
+}
+
+.titel{
+  font-family: "campaign-serif", sans-serif;
+  font-style: italic;
+}
+
+.skills{
+  width: 100%;
+  height: auto;
+}
+
+.skillsM{
+  display:none;
+}
+
+.soger{
+  font-size: 4vw;
+}
+
+.sogerimg{
+  width: 90%;
+  height: 40vw;
+  margin-left: 3vw;
+}
+
 @media screen and (max-width: 768px) {
   .ommigkolonner{
     display: none;
@@ -749,6 +839,7 @@ footer{
     width:90%;
     margin: auto;
     margin-bottom:7vw;
+    display: block;
   }
 
   .ommigforsideM{
@@ -759,9 +850,68 @@ footer{
     height: 157vw;
     margin-top: -12vh;
     margin-bottom: 1vh;
+    display: block;
     }
 
     .goddagM{
       width: 100%;
+    }
+
+    .hurtige{
+      font-family: "campaign-serif", sans-serif;
+      font-weight: 400;
+      font-size: 6vw;
+      line-height: 1.5em;
+    }
+
+    .hurtige p{
+      font-size: 5.5vw;
+    }
+
+    .citat{
+      font-size: 5vw;
+    }
+
+    .person{
+      font-family: "campaign-serif", sans-serif;
+      font-weight:400;
+      font-size: 5vw;
+    }
+    
+    .titel{
+      font-family: "campaign-serif", sans-serif;
+      font-style: italic;
+      font-size: 5vw;
+    }
+
+    .detsigerandre{
+      width: 85%;
+      margin: auto;
+      margin-bottom: -7vw;
+    }
+
+    .detsigerandre h2{
+      font-size: 11vw;
+    }
+
+    .skills{
+      display:none;
+    }
+
+    .skillsM{
+      width: 90%;
+      margin: auto;
+      margin-top: 10vw;
+      display: block;
+    }
+
+    .soger{
+      font-size: 10vw;
+    }
+    
+    .sogerimg{
+      width: 90%;
+      height: auto;
+      margin-top: 15vw;
     }
   }
