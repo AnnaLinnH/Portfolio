@@ -64,6 +64,14 @@ h3{
    margin-top: 2vh;
   }
 
+h6{
+  font-family: "campaign-serif", sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 1em;
+  margin-top: 2vh;
+}
+
   p{
     font-family: "quicksand", sans-serif;
     font-size: 1.5vw;
@@ -102,6 +110,13 @@ h3{
     font-size: 6vw;
     font-weight: 300;
     text-transform: uppercase;
+  }
+
+  h6{
+    font-family: "campaign-serif", sans-serif;
+    font-weight: 300;
+    font-size: 6vw;
+    line-height: 1.2em;
   }
 
   p{
@@ -179,6 +194,10 @@ h3{
     justify-content: center;
     margin-top: 4vw;
   }
+
+  .aligncenter{
+    align-items: center;
+  }
   
   .reversekolonner{
     display: flex;
@@ -223,6 +242,18 @@ h3{
     height: auto;
     padding-right: 0vw;
   }
+
+  .mellemkolonne4vendt{
+    width: 62%;
+    height: auto;
+    padding-right: 0vw;
+  }
+
+  .mellemkolonne5vendt{
+    width: 34%;
+    height: auto;
+    padding-right: 2vw;
+  }
   
   .lillekolonne{
     width: 36%;
@@ -250,12 +281,17 @@ h3{
     padding-right: 2vw;
   }
 
+  .trekolonner1{
+    width: 31.5%;
+    height: auto;
+    padding-right: 1vw;
+  }
   /*--------generelle mobil----------*/
   @media screen and (max-width: 768px) {
 
     .forsidebillede{
     height: 220vw;
-    margin-top: -10vh;
+    margin-top: -12vh;
     margin-bottom: 4vh;
     }
 
@@ -325,6 +361,16 @@ h3{
     width:95%;
     margin:auto;
   }
+
+  .mellemkolonne4vendt{
+    width:95%;
+    margin:auto;
+  }
+
+  .mellemkolonne5vendt{
+    width:95%;
+    margin:auto;
+  }
   
   .storkolonnehøjre{
     width:95%;
@@ -334,6 +380,11 @@ h3{
   }
 
   .trekolonner{
+    width:95%;
+    margin:auto;
+  }
+
+  .trekolonner1{
     width:95%;
     margin:auto;
   }
@@ -916,8 +967,107 @@ footer{
     }
   }
 
+/*-------------projekter generelt--------------*/
+.projektertopV{
+  width: 35%;
+  padding: 0 5vw 0 5vw;
+  text-align: left;
+}
+
+.projektertopV h3{
+  font-size: 5.5vw;
+  font-weight:400;
+}
+
+.projektertopH{
+  width: 35%;
+  padding: 0 5vw 0 5vw;
+  text-align: right;
+}
+
+.projekterfit{
+  width:80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:7vw;
+  margin-top: -7vw;
+}
+
+.projektimg1{
+  width: 100%;
+  height: auto;
+}
+
+#aljvideo{
+  width: 85%;
+}
+
+#aljinstah3{
+  font-size: 4vw;
+  font-weight: 400;
+}
+
+.aljlilleimg{
+  width: 100%;
+  height: 49%;
+  margin-bottom: 0.7vw;
+}
+
+.aljlilleimg1{
+  width: 100%;
+  height: 49%;
+}
+
+@media screen and (max-width: 768px) {
+  .projektertopV{
+    width: 95%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .projektertopV h3{
+    font-size: 15vw;
+    font-weight: 400;
+    margin-bottom: 10vw;
+  }
+  
+  .projektertopH{
+    width: 90%;
+    margin:auto;
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    text-align: left;
+  }
+
+  .projekterfit{
+    width: 90%;
+    margin: auto;
+    margin-top: -12vw;
+  }
+
+  .projektimg1{
+    width: 100%;
+    height: auto;
+    margin-top: 5vw;
+    margin-bottom: 15vw;
+  }
+
+  #aljinstah3{
+    font-size: 10vw;
+    font-weight: 400;
+  }
+
+  #aljvideo{
+    width: 100%;
+    margin-bottom: 20vw;
+  }
+}
 /*-----------------Anna Linn Jewellery--------*/
 #aljforside{
   background-image: url("images/aljforside.jpg");
   background-position: 50% 85%;
 }
+
+
