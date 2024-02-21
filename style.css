@@ -166,6 +166,15 @@ h6{
     margin-bottom: 5vh;
   }
 
+  .forsidevideo{
+    width: 100vw;
+    height: 58vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -17vh;
+    margin-bottom: 0vh;
+  }
+
   .billede100{
     width: 100%;
     height: 100%;
@@ -289,7 +298,7 @@ h6{
   }
 
   .trekolonner1{
-    width: 31.5%;
+    width: 31%;
     height: auto;
     padding-right: 1vw;
   }
@@ -1001,6 +1010,11 @@ footer{
   font-weight:400;
 }
 
+.projekterh2{
+  font-size: 4vw;
+  margin: 0;
+}
+
 .projektertopH{
   width: 35%;
   padding: 0 5vw 0 5vw;
@@ -1033,6 +1047,11 @@ footer{
     font-size: 14vw;
     font-weight: 400;
     margin-bottom: 10vw;
+  }
+
+  .projekterh2{
+    font-size: 12vw;
+    margin: 0;
   }
   
   .projektertopH{
@@ -1116,4 +1135,46 @@ footer{
   }
 }
 
+/*--------Botanisk Have--------*/
+#botaniskforside{
+  background-image: url("videos/botaniskforside.mp4");
+}
 
+/*--------Spotify---------*/
+.spotifyforside{
+  margin-top: 5vw;
+}
+.spotifyh3{
+  margin: 0 0 2vw 0;
+}
+.spotifyh6{
+  margin: 0;
+}
+
+.flyer{
+  display:none;
+}
+
+.begivenhedfb{
+  width:76%;
+  margin: auto;
+  margin-right: 12.5vw;
+  margin-bottom:7vw;
+  margin-top: -6vw;
+}
+
+@media screen and (max-width: 768px) {
+  .spotifyh3{
+    margin: 0 0 7vw 0;
+  }
+
+  .flyer{
+    display: block;
+  }
+
+  .begivenhedfb{
+    width:85%;
+    margin:auto;
+    margin-bottom: 10vw;
+    margin-top: -5vw;
+}
