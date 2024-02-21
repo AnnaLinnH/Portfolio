@@ -146,7 +146,7 @@ h3{
     height: 53vw;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -15vh;
+    margin-top: -17vh;
     margin-bottom: 5vh;
   }
 
@@ -915,3 +915,9 @@ footer{
       margin-top: 15vw;
     }
   }
+
+/*-----------------Anna Linn Jewellery--------*/
+#aljforside{
+  background-image: url("images/aljforside.jpg");
+  background-position: 50% 85%;
+}
