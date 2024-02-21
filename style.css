@@ -1178,3 +1178,37 @@ footer{
     margin-bottom: 10vw;
     margin-top: -5vw;
 }
+}
+
+/*--------------Illustrationer--------*/
+
+#illustrationerforside{
+  background-image: url("images/illustrationerforside.jpg");
+  background-position: center;
+}
+
+.illustrationerh2{
+  font-size: 4vw;
+  margin-bottom: 2vw;
+}
+
+.margintop{
+  margin-top: 4vw;
+}
+
+@media screen and (max-width: 768px) {
+  .illustrationerh2{
+    font-size: 12vw;
+    margin-bottom: 10vw;
+  }
+}
+
+/*-----------Content creation------*/
+.margintop1{
+  margin-top: -6vw;
+}
+
+.cch2{
+  font-size: 8vw;
+  margin-bottom: 2vw;
+}
