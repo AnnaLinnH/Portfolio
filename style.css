@@ -1212,3 +1212,54 @@ footer{
   font-size: 8vw;
   margin-bottom: 2vw;
 }
+
+.tiktokvideo{
+  width: 100%;
+}
+
+#myVideo {
+  display: block;
+  margin: 0 auto;
+}
+
+.firepastribe{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12vh;
+}
+
+.tiktokvideo{
+  margin-top:3vh;
+  width: 24%;
+  height: 35vw;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.videotitel{
+  width: 80%;
+  margin:auto;
+  margin-bottom: -2vw;
+}
+
+@media screen and (max-width: 768px) {
+  .tiktokvideo{
+    margin-top:3vh;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .firepastribe{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 12vh;
+  }
+}
