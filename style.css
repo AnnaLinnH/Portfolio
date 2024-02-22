@@ -16,7 +16,7 @@ body {
 
  .maillink:hover{
   color:#10289E;
-  text-shadow: 2px 2px #D3DDE6;
+  text-shadow: 2px 2px #FFC5E9;
  }
 
  .center{
@@ -310,7 +310,9 @@ h6{
   }
   /*--------generelle mobil----------*/
   @media screen and (max-width: 768px) {
-
+    .marginbottomM{
+      margin-bottom: 40vw;
+    }
     .forsidebillede{
     height: 220vw;
     margin-top: -12vh;
@@ -362,6 +364,12 @@ h6{
   .mellemkolonne1{
     width:95%;
     margin:auto;
+  }
+
+  .mellemkolonne1-2{
+    width:95%;
+    margin:auto;
+    margin-bottom: 10vw;
   }
 
   .mellemkolonne2{
@@ -675,6 +683,12 @@ footer{
   height: 35vw;
 }
 
+.portfoliovideo{
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+}
+
 .portfolioalj{
   background-image: url("images/portfolioalj.jpeg");
   background-size: cover;
@@ -737,6 +751,13 @@ footer{
     height: 55vh;
     margin-top: 2vh;
   }
+  .portfoliovideo{
+    width: 100%;
+    height: 55vh;
+    margin-top: 2vh;
+    object-fit: cover;
+  }
+
   .nysgerrigpamereM{
     width: 90%;
     margin: auto;
@@ -1031,6 +1052,16 @@ footer{
   margin-top: -7vw;
 }
 
+.projekterfit1{
+  width:80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:7vw;
+  margin-top: -7vw;
+}
+
 .projektimg1{
   width: 100%;
   height: auto;
@@ -1066,6 +1097,12 @@ footer{
     width: 90%;
     margin: auto;
     margin-top: -12vw;
+  }
+
+  .projekterfit1{
+    width: 90%;
+    margin: auto;
+    margin-top: 10vw;
   }
 
   .projektimg1{
