@@ -79,6 +79,10 @@ h6{
     font-weight: 300;
   }
 
+  p b{
+    font-weight: 500;
+  }
+
 /*------------typografi mobil---------*/
 
 @media screen and (max-width: 768px) {
@@ -308,6 +312,22 @@ h6{
     height: auto;
     padding-right: 1vw;
   }
+
+  .tilbage{
+    font-family: "quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw; 
+    color: #000;
+    line-height: 100%;
+    text-decoration: underline;
+}
+
+.projekterfittilbage{
+  width:80%;
+  margin: auto;
+  text-align: left;
+}
+
   /*--------generelle mobil----------*/
   @media screen and (max-width: 768px) {
     .marginbottomM{
@@ -427,6 +447,22 @@ h6{
   .billede100{
     margin:auto;
   }
+
+  .tilbage{
+    font-family: "quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 5vw; 
+    color: #000;
+    line-height: 100%;
+    text-decoration: underline;
+}
+
+.projekterfittilbage{
+  width:80%;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 10vw;
+}
   }
   
   /*header*/
@@ -597,7 +633,7 @@ h6{
 /*--------------footer-------------*/
 footer{
   background-color: #D3DDE6;
-  padding: 15vw 5vw 5vw 5vw;
+  padding: 7vw 5vw 3vw 5vw;
 }
 
 .footerkolonner{
@@ -640,7 +676,7 @@ footer{
 
   .mobilfooter{
     display: block;
-    padding: 10vh 2vh 4vh 2vh;
+    padding: 8vh 2vh 2vh 2vh;
   }
 
   .someikoner{
@@ -904,6 +940,14 @@ footer{
   font-size: 1.4vw;
 }
 
+.citatimg{
+  width: 45%;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  margin-left: 7vw;
+  margin-top: 5vw;
+}
+
 .person{
   font-family: "campaign-serif", sans-serif;
   font-weight:400;
@@ -985,6 +1029,14 @@ footer{
       font-family: "campaign-serif", sans-serif;
       font-style: italic;
       font-size: 5vw;
+    }
+
+    .citatimg{
+      width: 60%;
+      border-radius: 50%;
+      filter: grayscale(100%);
+      margin-left: 17vw;
+      margin-top: 5vw;
     }
 
     .detsigerandre{
