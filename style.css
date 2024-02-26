@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #F7F6F2;
+    overflow-x: hidden;
   }
 
  a{
@@ -339,6 +340,10 @@ h6{
     margin-bottom: 4vh;
     }
 
+    body{
+      overflow-x: hidden;
+    }
+
     .fit{
       width: 90%;
       margin:auto;
@@ -513,15 +518,15 @@ h6{
     flex-direction: column;
     justify-content: space-between;
     width: 40px;
-    height: 35px; /* Adjusted height */
+    height: 35px; 
     cursor: pointer;
     position: relative;
-    top: 0px; /* Adjusted position */
+    top: 0px; 
   }
   
   .burger-menu span {
     width: 100%;
-    height: 3px; /* Adjusted height */
+    height: 3px; 
     background-color: black;
     display: block;
     transition: all 0.3s ease;
@@ -532,7 +537,7 @@ h6{
   }
   
   input[type="checkbox"]:checked + .burger-menu span:nth-child(1) {
-    transform: translateY(16px) rotate(45deg); /* Adjusted rotation and translation */
+    transform: translateY(16px) rotate(45deg); 
   }
   
   input[type="checkbox"]:checked + .burger-menu span:nth-child(2) {
@@ -540,13 +545,13 @@ h6{
   }
   
   input[type="checkbox"]:checked + .burger-menu span:nth-child(3) {
-    transform: translateY(-16px) rotate(-45deg); /* Adjusted rotation and translation */
+    transform: translateY(-16px) rotate(-45deg); 
   }
   
   @media screen and (max-width: 768px) {
     header {
         position: sticky;
-        top: 0;
+        top: 50;
       }
 
     .logo {
@@ -580,7 +585,7 @@ h6{
     }
   
     input[type="checkbox"]:checked + .burger-menu + ul {
-      max-height: 800px; /* Adjust as needed */
+      max-height: 800px; 
     }
   
     .burger-menu {
@@ -588,15 +593,14 @@ h6{
     }
   }
   
-  /* Added styles for full page overlay */
   .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity and color as needed */
-    z-index: 1000; /* Ensure it's above other content */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000;
     display: none;
   }
   
@@ -956,6 +960,7 @@ footer{
 .titel{
   font-family: "campaign-serif", sans-serif;
   font-style: italic;
+  
 }
 
 .skills{

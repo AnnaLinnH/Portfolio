@@ -27,7 +27,6 @@ function playVideo() {
 function pauseVideo() {
     let video = document.getElementById("tiktok1");
     video.pause();
-    //video.currentTime = 0;
 }
 
 /*video2*/
